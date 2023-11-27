@@ -1,8 +1,7 @@
-n = input()
-numbers = list(input())
-sum = 0
+N = int(input())
+S = list(input())
+result = 0
 
-for i in numbers:
-    sum = sum + int(i)
-
-print(sum)
+for _ in range(N):
+    result += int(S[_])
+print(result)
