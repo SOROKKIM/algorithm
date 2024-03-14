@@ -1,0 +1,7 @@
+a, b = map(int, input().split())
+if a < b :
+    print ((a-b)*-1)
+elif a > b:
+    print(a-b)
+else :
+    print(0)
